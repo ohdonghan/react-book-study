@@ -1,0 +1,1 @@
+//const newsAPIKey ='e78e3977b99642cda29e8a0dbfd1701d'
