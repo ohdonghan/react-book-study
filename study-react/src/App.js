@@ -1,11 +1,14 @@
-import React,{useState,useCallback} from 'react'
-import {Route} from 'react-router-dom'
-import NewsPage from "./chapter_14/NewsPage";
-
+import React from 'react'
+import CounterContainer from "./chapter_17/containers/CounterContainer";
+import TodosContainer from "./chapter_17/containers/TodosContainer";
 const App=()=>{
 
     return(
-        <Route path='/:category?' component={NewsPage}/>
+        <div>
+            <CounterContainer number={0}/>
+            <hr/>
+            <TodosContainer/>
+        </div>
     )
 }
 
