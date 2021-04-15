@@ -1,0 +1,32 @@
+{
+  "name": "auth-server-sample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node sripts",
+    "start:dev": "nodemon --watch scripts/  scripts/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.12.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}

@@ -11,7 +11,7 @@
     "bcrypt": "^5.0.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.2.yarn0",
     "ejs": "~2.6.1",
     "eslint-config-prettier": "^8.2.0",
     "esm": "^3.2.25",
